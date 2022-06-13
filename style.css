@@ -1,0 +1,171 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma-rtl.min.css";
+
+* {
+    scroll-behavior: smooth;
+
+}
+
+::-webkit-scrollbar {
+    width: 11px;
+}
+
+::-webkit-scrollbar-track {
+    background: #252525;
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #e81a43;
+    border-radius: 50px;
+}
+
+.back-img {
+    background-image: url(img/back-img.jpg) !important;
+    height: 220rem;
+    width: 100vw;
+    background-position: center;
+    background-size: cover;
+   
+}
+
+.navbar-item {
+    width: 15vw;
+}
+
+.navbar-item:hover {
+    color: #d91919 !important;
+    transition: all 0.35s ease-in 0s !important;
+    text-decoration: none;
+}
+
+.width-back {
+    background: url(img/Avatar\ back\ img.png) no-repeat center center;
+    background-size: cover;
+    height: 92vh;
+}
+
+.about-us {
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    background: #d91919 !important;
+}
+
+.img-res {
+    background-position: center !important;
+    
+}
+
+.container-size {
+    width: 19vw;
+    display: inline-block;
+    margin-left: 0.3%;
+    margin-top: 2%;
+}
+
+
+.container-size:hover,
+.container-album:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.card-content-huge {
+    height: 12vh;
+}
+
+.media-content {
+    text-align: center !important;
+    font-size: 100%;
+    margin-top: -1vw;
+}
+
+.tour-date {
+    text-align: center;
+    font-size: 2em;
+    background: #ff1019 !important;
+}
+
+.day-show {
+    display: block;
+    border: 1px white;
+    font-size: 1.3em;
+
+}
+
+.day-local {
+    float: left;
+}
+
+.local-color {
+    color: #ff1019;
+    margin-left: 20vw;
+
+}
+
+.button-css {
+    background: #8e18ff !important;
+    color: #000000 !important;
+    float: right;
+    margin-top: -0.5em;
+    margin-left: 5px;
+
+
+}
+
+.button-css:hover {
+    transition: 0.7s;
+    background: #ff1019 !important;
+    color: white !important;
+}
+
+.container-album {
+    width: 19vw;
+    display: inline-block;
+    margin-top: 2%;
+    margin-left: 0.5%;
+}
+
+.albums-title {
+    background: #8e18ff !important;
+    text-align: center;
+    font-size: 2vw;
+}
+
+.content {
+    font-size: 50%;
+}
+
+.endp {
+
+    background-color: #840103 !important;
+    height: 40rem;
+}
+
+.mail-message {
+    display: inline-block;
+
+    margin-left: 10vw;
+}
+
+.social-icons {
+    width: 25vw;
+    height: 10vh;
+    margin-left: 4vw;
+    
+}
+
+.social-icon {
+    margin-left: 1vw;
+    height: 32px;
+    width: 32px;
+    display: inline;
+}
+
+.site-insp {
+    float: left;
+    margin-top: -25vw;
+    margin-left: 40vw;
+    height: 60vh;
+    border: 1px solid white;
+}
